@@ -38,7 +38,10 @@ Access 3D printer is needed to print the project enclosure files included in thi
 3. Solder one wire onto each of the terminals circled in Figure 1b. Note: the length of this wire will constrain the maximum distance between the holder and the controller.
 4. Solder banana plugs connectors onto the wires.
 ### Getting Started with the ESP8266
+
 ### Building the Circuit
+<img width="1890" height="1845" alt="Asset 1@2x" src="https://github.com/user-attachments/assets/b320ae67-5440-428a-b69e-8db7fd1ec743" />
+
 ### Assembling the Project Enclosure
 ## Using the Controller
 ### Physical Interface
