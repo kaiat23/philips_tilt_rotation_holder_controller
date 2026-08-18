@@ -22,10 +22,12 @@
 - [Jumper Wire](https://a.co/d/01qo7M4T)
 - [(2) Buttons]()
 - [(2) Buttons]()
+- [(2) Banana Plugs]()
 - [(2) Banana Binding Posts]()
 - [Potentiometer]()
-- [Micro B Round Panel Mount Extension Cable]()
-
+- [USB Micro B Round Panel Mount Extension Cable]()
+- [USB Micro B Cable]()
+Access to soldering equipment and supplies is required for assembly of the electronics.
 Access 3D printer is needed to print the project enclosure files included in this repository, but a similar box could also be machined.
 ## Building the Controller
 ### Connecting to the Motor Terminals
