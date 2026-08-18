@@ -4,18 +4,38 @@
 - [Parts List](#Parts-List)
 - [Building the Controller](#Building-the-Controller)
   - [Connecting to the Motor Terminals](#Connecting-to-the-Motor-Terminals)
+  - [Getting Started with the ESP8266](#Getting-Started-with-the-ESP8266)
+  - [Building the Circuit](#Building-the-Circuit)
+  - [Assembling the Project Enclosure](#Assembling-the-Project-Enclosure)
 - [Using the Controller](#Using-the-Controller)
   - [Physical Interface](#Physical-Interface)
   - [Web Interface](#Web-Interface)
 - [Loading Samples onto the Holder](#Loading-Samples-onto-the-Holder)
 
 ## About the Project
+
 ## Parts List
 - [L293D H-Bridge](https://a.co/d/00XXYMRh)
+- [ESP8266 NodeMCU Microcontroller](https://a.co/d/0bHyaaFW)
+- [Breadboard](https://www.adafruit.com/product/1609)
+- [Solid Core Wire](https://www.amazon.com/gp/product/B084DM42JS/ref=sw_img_1?smid=A1P2Y1BEUUWGO2&th=1)
+- [Jumper Wire](https://a.co/d/01qo7M4T)
+- [(2) Buttons]()
+- [(2) Buttons]()
+- [(2) Banana Binding Posts]()
+- [Potentiometer]()
+- [Micro B Round Panel Mount Extension Cable]()
 
-To print the controller box attached 
+Access 3D printer is needed to print the project enclosure files included in this repository, but a similar box could also be machined.
 ## Building the Controller
 ### Connecting to the Motor Terminals
+1. Using a flathead screwdriver, remove the screw on the body of the holder that is circled in Figure 1a.
+2. XXX
+3. Solder one wire onto each of the terminals circled in Figure 1b. Note: the length of this wire will constrain the maximum distance between the holder and the controller.
+4. Solder banana plugs connectors onto the wires.
+### Getting Started with the ESP8266
+### Building the Circuit
+### Assembling the Project Enclosure
 ## Using the Controller
 ### Physical Interface
 ### Web Interface 
