@@ -44,6 +44,8 @@ FIGURE 1
 <img width="1890" height="1845" alt="Asset 1@2x" src="https://github.com/user-attachments/assets/b320ae67-5440-428a-b69e-8db7fd1ec743" />
 
 ### Assembling the Project Enclosure
+<img width="1249" height="604" alt="Screenshot 2026-08-18 at 12 19 40 PM" src="https://github.com/user-attachments/assets/276b614d-1981-4c4e-97d0-465117b9645d" />
+
 ## Using the Controller
 ### Physical Interface
 ### Web Interface 
