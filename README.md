@@ -13,6 +13,11 @@
 - [Loading Samples onto the Holder](#Loading-Samples-onto-the-Holder)
 
 ## About the Project
+<p align="center">
+  <a href="https://youtu.be/6G2ZNpXVkjs">
+    <img src="https://youtube.com" alt="Watch the video" width="70%">
+  </a>
+</p>
 
 ## Parts List
 - [L293D H-Bridge](https://a.co/d/00XXYMRh)
