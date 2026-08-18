@@ -12,7 +12,7 @@
 ## About the Project
 ## Parts List
 - [L293D H-Bridge](https://a.co/d/00XXYMRh)
-To print the controller box attached 
+<\br> To print the controller box attached 
 ## Building the Controller
 ### Connecting to the Motor Terminals
 ## Using the Controller
