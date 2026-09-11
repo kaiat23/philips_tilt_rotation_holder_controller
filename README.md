@@ -19,8 +19,6 @@
   </a>
 </p>
 
-need to fix embedding
-
 ## Parts List
 - [L293D H-Bridge](https://a.co/d/00XXYMRh)
 - [ESP8266 NodeMCU Microcontroller](https://a.co/d/0bHyaaFW)
