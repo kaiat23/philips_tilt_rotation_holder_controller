@@ -60,6 +60,7 @@ FIGURE 1
 <img width="4234" height="2393" alt="Artboard 1" src="https://github.com/user-attachments/assets/086e1c0c-33c5-42d7-958c-bd9bf083f161" />
 1. Solder the ESP8266 to the breadboard
 2. Solder the L9110H to the breadboard
+
 ### Assembling the Project Enclosure
 <img width="1249" height="604" alt="Screenshot 2026-08-18 at 12 19 40 PM" src="https://github.com/user-attachments/assets/276b614d-1981-4c4e-97d0-465117b9645d" />
 
