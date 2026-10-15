@@ -57,8 +57,9 @@ FIGURE 1
 2. Click uplaod
 3. Confirm on the ESP8266 is blinking
 ### Building the Circuit
-<img width="1890" height="1845" alt="Asset 1@2x" src="https://github.com/user-attachments/assets/b320ae67-5440-428a-b69e-8db7fd1ec743" />
+<img width="4234" height="2393" alt="Artboard 1" src="https://github.com/user-attachments/assets/086e1c0c-33c5-42d7-958c-bd9bf083f161" />
 1. Solder the ESP8266 to the breadboard
+2. Solder the L9110H to the breadboard
 ### Assembling the Project Enclosure
 <img width="1249" height="604" alt="Screenshot 2026-08-18 at 12 19 40 PM" src="https://github.com/user-attachments/assets/276b614d-1981-4c4e-97d0-465117b9645d" />
 
