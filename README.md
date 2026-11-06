@@ -45,7 +45,7 @@ FIGURE 1
 3. Solder banana plugs connectors onto the wires.
 ### Getting Started with the ESP8266
 #### Software Setup
-1. Download and install the Arduino IDE ([click here to access the download link](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
+1. Download and install the Arduino IDE ([click here to access the download link](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE))
 2. Open the Arduino IDE and navigate to Settings/Preferences
 3. Paste ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` into the Additional Boards Manager URLs box
 #### Hardware Setup
