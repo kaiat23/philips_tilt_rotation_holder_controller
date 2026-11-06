@@ -50,9 +50,11 @@ FIGURE 1
 3. Paste ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` into the Additional Boards Manager URLs box
 #### Hardware Setup
 1. Go to Tools > Board > Boards Manager
-2. Search for ESP8266 and install the package by ESP8266 Community
+2. Search for espP8266 and install the package by ESP8266 Community
 3. Connect your ESP8266 board to your computer using a micro-usb cable
-4. Select your board from the drop down lis
+4. Select the port connected to your board from the "Select Board" drop-down list (it should be a usbserial port)
+5. In the pop-up window, select "NodeMCU 1.0 (ESP-12E Module)" under "BOARDS" and select the port connected to your board under "PORTS"
+6. Press the left arrow "Upload" button
 #### Test the ESP8266 
 1. Go to File > Examples > ESP8266 > Blink
 2. Click uplaod
