@@ -64,6 +64,7 @@ FIGURE 1
 1. Solder the ESP8266 to the breadboard
 2. Solder the L9110H to the breadboard
 Optionally, attach a toy motor to the circuit and test that this simple code block makes it run continuously in one direction:
+
 ```
 const int pinIA = D1;
 const int pinIB = D2;
