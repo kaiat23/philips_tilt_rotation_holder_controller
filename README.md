@@ -60,7 +60,8 @@ FIGURE 1
 2. Click uplaod
 3. Confirm on the ESP8266 is blinking
 ### Building the Circuit
-<img width="4234" height="2393" alt="Artboard 1" src="https://github.com/user-attachments/assets/086e1c0c-33c5-42d7-958c-bd9bf083f161" />
+<img width="1412" height="798" alt="circuit_diagram" src="https://github.com/user-attachments/assets/bb384898-dd90-49fa-8e3f-db55bf208ce1" />
+
 1. Solder the ESP8266 to the breadboard
 2. Solder the L9110H to the breadboard
 Optionally, attach a toy motor to the circuit and test that this simple code block makes it run continuously in one direction:
