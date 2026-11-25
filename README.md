@@ -52,7 +52,8 @@ Access 3D printer is needed to print the project enclosure files included in thi
 ### Connecting to the Motor Terminals
 1. Using a flathead screwdriver, remove the screw on the body of the holder that is circled in Figure 1a.
 2. Solder one wire onto each of the terminals.
->[!NOTE] The length of this wire will constrain the maximum distance between the holder and the controller.
+>[!NOTE]
+>The length of this wire will constrain the maximum distance between the holder and the controller.
 4. Solder banana plugs connectors onto the wires.
 
 
