@@ -41,29 +41,9 @@
 - 2.5mm hand tap
 - Tap holder
 ### Recommended Tools
-- 3D printer (for project box)
+- 3D printer (for project box, though a similar box could be machined)
 - [Toy motor (for troubleshooting)](https://a.co/d/04hegbpR)
 - Helping hands (to make soldering easier)
-
-## Parts List
-
-Access 3D printer is needed to print the project enclosure files included in this repository, but a similar box could also be machined.
-## Building the Controller
-### Connecting to the Motor Terminals
-1. Using a flathead screwdriver, remove the screw on the body of the holder that is circled in Figure 1a.
-2. Solder one wire onto each of the terminals.
->[!NOTE]
->The length of this wire will constrain the maximum distance between the holder and the controller.
-4. Solder banana plugs connectors onto the wires.
-
-
-1. Solder the ESP8266 to the breadboard
-2. Solder the L9110H to the breadboard
-> [!NOTE]
-> To test the circuit at this stage, connect a toy motor to the jumper wires extending from the OA and OB pins of the L9110H H-bridge, with one wire connected to each motor terminal; then, upload the following code to the ESP8266. The motor should alternate between directions every 5 seconds, with a 2-second pause between rotations. 
-
-### Assembling the Project Enclosure
-<img width="1249" height="604" alt="Screenshot 2026-08-18 at 12 19 40 PM" src="https://github.com/user-attachments/assets/276b614d-1981-4c4e-97d0-465117b9645d" />
 
 ## Using the Controller
 ### Physical Interface
