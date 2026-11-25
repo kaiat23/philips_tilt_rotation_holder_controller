@@ -14,7 +14,7 @@
 
 ## About the Project
 
-<img width="8192" height="4489" alt="Holder attached to controller in microscope" src="https://github.com/user-attachments/assets/6be63995-dee0-46c2-89e9-a63494352e9c" />
+<img alt="Holder attached to controller in microscope" src="https://github.com/user-attachments/assets/6be63995-dee0-46c2-89e9-a63494352e9c" />
 
 [Click here to watch a video demo.](https://youtu.be/6G2ZNpXVkjs)
 
