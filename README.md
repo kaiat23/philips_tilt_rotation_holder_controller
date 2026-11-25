@@ -13,11 +13,7 @@
 - [Loading Samples onto the Holder](#Loading-Samples-onto-the-Holder)
 
 ## About the Project
-<p align="center">
-  <a href="https://youtu.be/6G2ZNpXVkjs">
-    <img src="https://youtube.com" alt="Watch the video" width="70%">
-  </a>
-</p>
+[Click here to watch a video demo.](https://youtu.be/6G2ZNpXVkjs)
 
 ## Parts List
 ### Components
@@ -49,6 +45,7 @@
 - [Toy motor (for troubleshooting)](https://a.co/d/04hegbpR)
 - Helping hands (to make soldering easier)
 
+## Parts List
 
 Access 3D printer is needed to print the project enclosure files included in this repository, but a similar box could also be machined.
 ## Building the Controller
