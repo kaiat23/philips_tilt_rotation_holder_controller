@@ -64,25 +64,31 @@ FIGURE 1
 
 1. Solder the ESP8266 to the breadboard
 2. Solder the L9110H to the breadboard
-Optionally, attach a toy motor to the circuit and test that this simple code block makes it run continuously in one direction:
+> [!NOTE]
+> To test the circuit at this stage, connect a toy motor to the jumper wires extending from the OA and OB pins of the L9110H H-bridge, with one wire connected to each motor terminal; then, upload the following code to the ESP8266. The motor should alternate between directions every 5 seconds, with a 2-second pause between rotations. 
+> ```cpp
+> void setup() {
+>   pinMode(D1, OUTPUT);
+>   pinMode(D2, OUTPUT);
+>   digitalWrite(D1, LOW);
+>   digitalWrite(D2, LOW);
+> }
+>
+> void loop() {
+>   digitalWrite(D1, HIGH);
+>   delay(5000);
+>   digitalWrite(D1, LOW);
+>   delay(2000);
+>
+>   digitalWrite(D2, HIGH);
+>   delay(5000);
+>   digitalWrite(D2, LOW);
+>   delay(2000);
+> }
+> ```
 
-```
-const int pinIA = D1;
-const int pinIB = D2;
-
-void setup() {
-  pinMode(pinIA, OUTPUT);
-  pinMode(pinIB, OUTPUT);
-
-  digitalWrite(pinIA, LOW);
-  digitalWrite(pinIB, LOW);
-
-  // Run continuously in one direction.
-  digitalWrite(pinIA, HIGH);
-}
-
-void loop() {
-}
+>void loop() {
+>}
 ```
 
 ### Assembling the Project Enclosure
