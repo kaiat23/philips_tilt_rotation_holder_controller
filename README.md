@@ -20,21 +20,35 @@
 </p>
 
 ## Parts List
-- [L9110H H-Bridge](https://www.adafruit.com/product/4489)
-- [ESP8266 NodeMCU Microcontroller](https://a.co/d/0bHyaaFW)
-- [Breadboard](https://www.adafruit.com/product/1609)
-- [Solid Core Wire](https://www.amazon.com/gp/product/B084DM42JS/ref=sw_img_1?smid=A1P2Y1BEUUWGO2&th=1)
-- [Jumper Wire](https://a.co/d/01qo7M4T)
-- [(2) Buttons]()
-- [(2) Buttons]()
-- [(2) Banana Plugs]()
-- [(2) Banana Binding Posts]()
-- [Linear Potentiometer]()
-- [Potentiometer Knob]()
-- [USB Micro B Round Panel Mount Extension Cable]()
-- [USB Micro B Cable]()
+### Components
+- Linear potentiometer (https://a.co/d/02KlyO1r)
+- Potentiometer knob (https://www.adafruit.com/product/5529)
+- L9110H Motor Driver (https://www.adafruit.com/product/4489)
+- ESP8266 NodeMCU board (https://a.co/d/0iqh8LNQ)
+- Jumper wire (https://a.co/d/0hTiEMZ9)
+- Solid core wire (https://a.co/d/089FC4C2)
+- Banana Jack binding posts (https://a.co/d/0c96mdkv)
+- Momentary pushbutton (https://a.co/d/02dmAwGY)
+- Adafruit permaproto board (https://www.adafruit.com/product/1609)
+- USB C to Micro B cable (https://www.adafruit.com/product/3878)
+- Micro B Round Panel Mount Extension Cable (https://www.adafruit.com/product/4217)
+- Four m2.5 x 30 mm screws
+- Electrical tape
+- Banana plug
+- Hook up wire 
+### Required Tools
+- Small flathead screwdriver
+- 2mm allen wrench
+- 2.5mm allen wrench
+- Soldering iron
+- Solder wire
+- 2.5mm hand tap
+- Tap holder
+### Recommended Tools
+- 3D printer (for project box)
+- Toy motor (for troubleshooting) (https://a.co/d/04hegbpR)
+- Helping hands (to make soldering easier)
 
-Access to soldering equipment and supplies is required for assembly of the electronics.
 
 Access 3D printer is needed to print the project enclosure files included in this repository, but a similar box could also be machined.
 ## Building the Controller
