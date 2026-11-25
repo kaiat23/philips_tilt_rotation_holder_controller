@@ -49,7 +49,17 @@ While legacy Philips side-entry holders are vacuum compatible with modern Thermo
 - Helping hands (to make soldering easier)
 
 ## Building the Controller
-The [project wiki](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki) provides step-by-step instructions for connecting to the holder’s motor terminals, wiring and circuit, and assembling the controller in the project box.
-<img alt="Exploded view of assembly" src="https://github.com/user-attachments/assets/239a1366-0255-4ec6-bb64-2ee8e3b6b4bb" />
+The [project wiki](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki) provides step-by-step instructions for adapting the holder and building the controller.
+
+1. [Adapting the Holder for Controller](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Adapting-the-Holder-for-Controller)  
+   Connect wires to the holder’s motor terminals so the motor can be driven by the external controller.
+
+2. [Circuit Instructions](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Circuit-Instructions)  
+   Set up and test the ESP8266, solder the circuit, and wire the binding posts, potentiometer, and pushbuttons. This page also includes an optional motor test.
+
+3. [Project Box Assembly](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Project-Box-Assembly)  
+   Make the project box, mount the components to the top and side panels, and complete the assembly.
+
+<img alt="Exploded view of the controller and project box assembly" src="https://github.com/user-attachments/assets/239a1366-0255-4ec6-bb64-2ee8e3b6b4bb" />
 
 
