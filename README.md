@@ -53,28 +53,10 @@
 Access 3D printer is needed to print the project enclosure files included in this repository, but a similar box could also be machined.
 ## Building the Controller
 ### Connecting to the Motor Terminals
-FIGURE 1
 1. Using a flathead screwdriver, remove the screw on the body of the holder that is circled in Figure 1a.
 2. Solder one wire onto each of the terminals circled in Figure 1b. Note: the length of this wire will constrain the maximum distance between the holder and the controller.
 3. Solder banana plugs connectors onto the wires.
-### Getting Started with the ESP8266
-#### Software Setup
-1. Download and install the Arduino IDE ([click here to access the download link](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE))
-2. Open the Arduino IDE and navigate to Settings/Preferences
-3. Paste ```https://arduino.esp8266.com/stable/package_esp8266com_index.json``` into the Additional Boards Manager URLs box
-#### Hardware Setup
-1. Go to Tools > Board > Boards Manager
-2. Search for espP8266 and install the package by ESP8266 Community
-3. Connect your ESP8266 board to your computer using a micro-usb cable
-4. Select the port connected to your board from the "Select Board" drop-down list (it should be a usbserial port)
-5. In the pop-up window, select "NodeMCU 1.0 (ESP-12E Module)" under "BOARDS" and select the port connected to your board under "PORTS"
-6. Press the left arrow "Upload" button
-#### Test the ESP8266 
-1. Go to File > Examples > ESP8266 > Blink
-2. Click uplaod
-3. Confirm on the ESP8266 is blinking
-### Building the Circuit
-<img width="1412" height="798" alt="circuit_diagram" src="https://github.com/user-attachments/assets/bb384898-dd90-49fa-8e3f-db55bf208ce1" />
+
 
 1. Solder the ESP8266 to the breadboard
 2. Solder the L9110H to the breadboard
