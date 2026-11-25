@@ -24,6 +24,8 @@ While legacy Philips side-entry holders are vacuum compatible with modern Thermo
 - Banana plug
 - Hook up wire 
 ### Required Tools
+- Wire cutter
+- Wire stripper
 - Small flathead screwdriver
 - 2mm allen wrench
 - 2.5mm allen wrench
