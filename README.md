@@ -85,10 +85,6 @@ FIGURE 1
 >   digitalWrite(D2, LOW);
 >   delay(2000);
 > }
-> ```
-
->void loop() {
->}
 >```
 
 ### Assembling the Project Enclosure
