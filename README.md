@@ -1,16 +1,4 @@
 # Philips Tilt Rotation Controller for Modern TEMs
-## Table of Contents
-- [About the Project](#About-the-Project)
-- [Parts List](#Parts-List)
-- [Building the Controller](#Building-the-Controller)
-  - [Connecting to the Motor Terminals](#Connecting-to-the-Motor-Terminals)
-  - [Getting Started with the ESP8266](#Getting-Started-with-the-ESP8266)
-  - [Building the Circuit](#Building-the-Circuit)
-  - [Assembling the Project Enclosure](#Assembling-the-Project-Enclosure)
-- [Using the Controller](#Using-the-Controller)
-  - [Physical Interface](#Physical-Interface)
-  - [Web Interface](#Web-Interface)
-- [Loading Samples onto the Holder](#Loading-Samples-onto-the-Holder)
 
 ## About the Project
 
