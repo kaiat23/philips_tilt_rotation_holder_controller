@@ -13,6 +13,8 @@
 - [Loading Samples onto the Holder](#Loading-Samples-onto-the-Holder)
 
 ## About the Project
+
+
 [Click here to watch a video demo.](https://youtu.be/6G2ZNpXVkjs)
 
 ## Parts List
