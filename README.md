@@ -44,7 +44,7 @@ While legacy Philips side-entry holders are vacuum compatible with modern Thermo
 - 2.5mm hand tap
 - Tap holder
 ### Recommended Tools
-- 3D printer (for project box, though a similar box could be machined)
+- 3D printer (for project box, alternatively machine the box)
 - [Toy motor (for troubleshooting)](https://a.co/d/04hegbpR)
 - Helping hands (to make soldering easier)
 
