@@ -48,7 +48,6 @@
 - [Toy motor (for troubleshooting)](https://a.co/d/04hegbpR)
 - Helping hands (to make soldering easier)
 
-## Using the Controller
-### Physical Interface
-### Web Interface 
-## Loading Samples onto the Holder
+## Building the Controller
+<img alt="Exploded view of assembly" src="https://github.com/user-attachments/assets/239a1366-0255-4ec6-bb64-2ee8e3b6b4bb" />
+
