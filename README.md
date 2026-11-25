@@ -21,17 +21,17 @@
 
 ## Parts List
 ### Components
-- Linear potentiometer (https://a.co/d/02KlyO1r)
-- Potentiometer knob (https://www.adafruit.com/product/5529)
-- L9110H Motor Driver (https://www.adafruit.com/product/4489)
-- ESP8266 NodeMCU board (https://a.co/d/0iqh8LNQ)
-- Jumper wire (https://a.co/d/0hTiEMZ9)
-- Solid core wire (https://a.co/d/089FC4C2)
-- Banana Jack binding posts (https://a.co/d/0c96mdkv)
-- Momentary pushbutton (https://a.co/d/02dmAwGY)
-- Adafruit permaproto board (https://www.adafruit.com/product/1609)
-- USB C to Micro B cable (https://www.adafruit.com/product/3878)
-- Micro B Round Panel Mount Extension Cable (https://www.adafruit.com/product/4217)
+- [Linear potentiometer](https://a.co/d/02KlyO1r)
+- [Potentiometer knob](https://www.adafruit.com/product/5529)
+- [L9110H Motor Driver](https://www.adafruit.com/product/4489)
+- [ESP8266 NodeMCU board](https://a.co/d/0iqh8LNQ)
+- [Jumper wire](https://a.co/d/0hTiEMZ9)
+- [Solid core wire](https://a.co/d/089FC4C2)
+- [Banana Jack binding posts](https://a.co/d/0c96mdkv)
+- [Momentary pushbutton](https://a.co/d/02dmAwGY)
+- [Adafruit permaproto board](https://www.adafruit.com/product/1609)
+- [USB C to Micro B cable](https://www.adafruit.com/product/3878)
+- [Micro B Round Panel Mount Extension Cable](https://www.adafruit.com/product/4217)
 - Four m2.5 x 30 mm screws
 - Electrical tape
 - Banana plug
@@ -46,7 +46,7 @@
 - Tap holder
 ### Recommended Tools
 - 3D printer (for project box)
-- Toy motor (for troubleshooting) (https://a.co/d/04hegbpR)
+- [Toy motor (for troubleshooting)](https://a.co/d/04hegbpR)
 - Helping hands (to make soldering easier)
 
 
