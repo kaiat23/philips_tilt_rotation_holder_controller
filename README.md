@@ -16,7 +16,7 @@
 
 <img alt="Holder attached to controller in microscope" src="https://github.com/user-attachments/assets/6be63995-dee0-46c2-89e9-a63494352e9c" />
 
-[Click here to watch a video demo.](https://youtu.be/6G2ZNpXVkjs)
+While legacy Philips side-entry holders are vacuum compatible with modern Thermo Fisher Scientific (TFS) and FEI TEM goniometers, an external controller is needed to operate the in-plane rotation mechanism of the Philips 6594/00 tilt-rotation holder. We built an open-hardware controller to drive the holder’s motor and control the speed and direction of specimen rotation. The holder provides 360° of in-plane rotation, which can be combined with the microscope’s α-tilt to access a wide range orientations. [Click here to watch a video demo.](https://youtu.be/6G2ZNpXVkjs)
 
 ## Parts List
 ### Components
