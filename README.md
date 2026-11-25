@@ -50,4 +50,5 @@
 
 ## Building the Controller
 <img alt="Exploded view of assembly" src="https://github.com/user-attachments/assets/239a1366-0255-4ec6-bb64-2ee8e3b6b4bb" />
+The [project wiki](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki) provides step-by-step instructions for connecting to the holder’s motor terminals, wiring and circuit, and assembling the controller in the project box.
 
