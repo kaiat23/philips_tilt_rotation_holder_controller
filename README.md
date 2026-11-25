@@ -89,7 +89,7 @@ FIGURE 1
 
 >void loop() {
 >}
-```
+>```
 
 ### Assembling the Project Enclosure
 <img width="1249" height="604" alt="Screenshot 2026-08-18 at 12 19 40 PM" src="https://github.com/user-attachments/assets/276b614d-1981-4c4e-97d0-465117b9645d" />
