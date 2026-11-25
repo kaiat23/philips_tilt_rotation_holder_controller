@@ -62,26 +62,6 @@ Access 3D printer is needed to print the project enclosure files included in thi
 2. Solder the L9110H to the breadboard
 > [!NOTE]
 > To test the circuit at this stage, connect a toy motor to the jumper wires extending from the OA and OB pins of the L9110H H-bridge, with one wire connected to each motor terminal; then, upload the following code to the ESP8266. The motor should alternate between directions every 5 seconds, with a 2-second pause between rotations. 
-> ```cpp
-> void setup() {
->   pinMode(D1, OUTPUT);
->   pinMode(D2, OUTPUT);
->   digitalWrite(D1, LOW);
->   digitalWrite(D2, LOW);
-> }
->
-> void loop() {
->   digitalWrite(D1, HIGH);
->   delay(5000);
->   digitalWrite(D1, LOW);
->   delay(2000);
->
->   digitalWrite(D2, HIGH);
->   delay(5000);
->   digitalWrite(D2, LOW);
->   delay(2000);
-> }
->```
 
 ### Assembling the Project Enclosure
 <img width="1249" height="604" alt="Screenshot 2026-08-18 at 12 19 40 PM" src="https://github.com/user-attachments/assets/276b614d-1981-4c4e-97d0-465117b9645d" />
