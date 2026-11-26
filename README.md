@@ -7,36 +7,38 @@
 While legacy Philips side-entry holders are vacuum compatible with modern Thermo Fisher Scientific and FEI TEM goniometers, an external controller is needed to operate the in-plane rotation mechanism of the Philips 6594/00 tilt-rotation holder. We built an open-hardware controller to drive the holder’s motor and control the speed and direction of specimen rotation. The holder provides 360° of in-plane rotation, which can be combined with the microscope’s α-tilt to access a wide range orientations. [Click here to watch a video demo.](https://youtu.be/6G2ZNpXVkjs)
 
 ## Parts List
+
 ### Components
 - [Linear potentiometer](https://a.co/d/02KlyO1r)
 - [Potentiometer knob](https://www.adafruit.com/product/5529)
-- [L9110H Motor Driver](https://www.adafruit.com/product/4489)
+- [L9110H motor driver](https://www.adafruit.com/product/4489)
 - [ESP8266 NodeMCU board](https://a.co/d/0iqh8LNQ)
-- [Jumper wire](https://a.co/d/0hTiEMZ9)
-- [Solid core wire](https://a.co/d/089FC4C2)
-- [Banana Jack binding posts](https://a.co/d/0c96mdkv)
-- [Momentary pushbutton](https://a.co/d/02dmAwGY)
-- [Adafruit permaproto board](https://www.adafruit.com/product/1609)
-- [USB C to Micro B cable](https://www.adafruit.com/product/3878)
-- [Micro B Round Panel Mount Extension Cable](https://www.adafruit.com/product/4217)
-- Four m2.5 x 30 mm screws
+- [Jumper wires](https://a.co/d/0hTiEMZ9)
+- [Solid-core wire](https://a.co/d/089FC4C2)
+- [Two banana jack binding posts](https://a.co/d/0c96mdkv)
+- [Two momentary pushbuttons](https://a.co/d/02dmAwGY)
+- [Adafruit Perma-Proto board](https://www.adafruit.com/product/1609)
+- [USB-C to USB Micro-B cable](https://www.adafruit.com/product/3878)
+- [USB Micro-B round panel-mount extension cable](https://www.adafruit.com/product/4217)
+- Four M2.5 × 30 mm screws
 - Electrical tape
-- Banana plug
-- Hook up wire 
+- Two banana plugs
+- Hook-up wire
+
 ### Required Tools
-- Wire cutter
-- Wire stripper
+- Wire cutters
+- Wire strippers
 - Small flathead screwdriver
-- 2mm allen wrench
-- 2.5mm allen wrench
+- 2 mm hex key
+- 2.5 mm hex key
 - Soldering iron
-- Solder wire
-- 2.5mm hand tap
-- Tap holder
-### Recommended Tools
-- 3D printer (for project box, alternatively machine the box)
-- [Toy motor (for troubleshooting)](https://a.co/d/04hegbpR)
-- Helping hands (to make soldering easier)
+- Solder
+- M2.5 hand tap
+- Tap wrench
+
+### Recommended Tools and Equipment
+- 3D printer (for fabricating the project box)
+- [Toy motor (for testing and troubleshooting)](https://a.co/d/04hegbpR)
 
 ## Building the Controller
 
