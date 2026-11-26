@@ -31,6 +31,7 @@ While legacy Philips side-entry holders are vacuum compatible with modern Thermo
 - Small flathead screwdriver
 - 2 mm hex key
 - 2.5 mm hex key
+- 10 mm wrench
 - Soldering iron
 - Solder
 - M2.5 hand tap
