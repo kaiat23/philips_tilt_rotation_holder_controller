@@ -85,7 +85,7 @@ If you uploaded the Wi-Fi-enabled sketch (`InPlaneRotationControl.ino`), the con
 > The ESP8266 has a reported Wi-Fi range of up to 100 m under unobstructed conditions. However, the effective range may, especially indoors, due to obstructions and interference.
 
 #### Operating the web interface
-<img alt="web interface" src="https://github.com/user-attachments/assets/21bea394-d255-4ebd-9463-b318431fc364" />
+<img alt="web interface" src="https://github.com/user-attachments/assets/2a79aa13-1385-4750-902b-4e0658ae5f55" />
 
 Toggle the **Web control** switch to ON to enable the web interface controls.
 >[!NOTE]
