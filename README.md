@@ -102,3 +102,36 @@ The status displayed below the controls indicates the current commanded directio
 > When web control is enabled, the physical potentiometer and individual pushbuttons are disabled to prevent conflicting inputs. However, pressing both physical pushbuttons simultaneously will stop rotation and deselect the active direction in the web interface. Rotation also stops when switching between manual and web control.
 >
 > Closing the webpage or losing the Wi-Fi connection will not stop ongoing rotation. In either case, rotation can still be stopped by pressing both physical pushbuttons simultaneously or disconnecting the controller from its USB power source.
+
+## Loading a Specimen
+
+The Philips 6594 is compatible with standard 3 mm TEM grids. Specimens are secured using circlips similar to those commonly used in FEI/TFS aperture housings.
+
+### Required Tools and Materials
+- TEM tweezers
+- Circlip
+- Plunger-actuated circlip insertion tool
+
+## Loading Procedure
+
+<img alt="loading procedure" src="https://github.com/user-attachments/assets/e1122bba-288f-4598-96dd-2006f08fac1d" />
+
+### 1. Insert the TEM grid
+
+Using tweezers, place the TEM grid into the notched side of the sample cup, as shown in panels (b) and (c).
+
+### 2. Load the circlip into the insertion tool
+
+Grip the circlip with tweezers on the side opposite its opening and insert it into the plunger-actuated circlip insertion tool, as shown in panel (d).
+
+Ensure that the circlip sits flush with the opening of the insertion tool.
+
+> [!TIP]
+> If necessary, press the end of the insertion tool against a flat surface to help seat the circlip.
+
+### 3. Secure the specimen
+
+Position the insertion tool perpendicular to the sample cup and press down on the plunger to deposit the circlip onto the TEM grid, as shown in panel (e).
+
+Panel (a) shows the holder tip with the TEM grid and circlip in place.
+
