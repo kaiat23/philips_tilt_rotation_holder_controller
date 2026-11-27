@@ -117,7 +117,7 @@ The status displayed below the controls indicates the current commanded directio
 The Philips 6594 is compatible with standard 3 mm TEM grids. Specimens are secured using circlips similar to those commonly used in FEI/TFS aperture housings.
 
 ### Required Tools and Materials
-- TEM tweezers
+- Tweezers
 - Circlip
 - Plunger-actuated circlip insertion tool
 
