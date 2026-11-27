@@ -50,58 +50,51 @@ The [project wiki](https://github.com/kaiat23/philips_tilt_rotation_holder_contr
 3. [Project Box Assembly](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Project-Box-Assembly): Print the project box, tap screw holes, mount the components, and screw the box together. <img alt="Exploded view of Assembly" src="https://github.com/user-attachments/assets/d79812bd-f72d-4477-a616-241b2b7760ac" />
 
 ## Using the Controller
-Connecting the Controller
 
-Connect the banana plugs extending from the holder to the corresponding binding posts on the controller.
+The external controller controls the direction and speed of in-plane specimen rotation. The α-tilt of the holder can still be controlled through the microscope's goniometer as usual.
 
-Plug a Micro-USB cable into the panel-mounted USB extension cable and connect the other end to a power source, such as a power bank or USB wall adapter.
+### Connecting the Controller
 
-The controller defaults to manual control each time it is powered on.
+1. Connect the banana plugs extending from the holder to the corresponding binding posts on the controller.
+2. Plug a Micro-USB cable into the panel-mounted USB extension cable and connect the other end to a power source, such as a power bank or USB wall adapter.
 
-Manual Control
+### Manual Control
 
-Direction: Press and hold the corresponding pushbutton to rotate the specimen clockwise (CW) or counterclockwise (CCW).
+- **Direction:** Press and hold the corresponding pushbutton to rotate the specimen clockwise (CW) or counterclockwise (CCW).
+- **Speed:** Turn the potentiometer knob to adjust the speed setting between 15% and 100%.
+- **Stop:** Release the pushbutton to stop rotation. Pressing both pushbuttons simultaneously also stops rotation.
 
-Speed: Turn the potentiometer knob to adjust the speed setting between 15% and 100%.
+The speed setting corresponds to the pulse-width modulation (PWM) duty cycle, which is limited to a minimum of 15% to reduce the risk of motor stalling.
 
-Stop: Release the pushbutton to stop rotation. Pressing both pushbuttons simultaneously also stops rotation.
+### Wi-Fi Control
 
-The minimum speed setting is limited to 15% to reduce the risk of motor stalling.
+If you uploaded the Wi-Fi-enabled sketch (`InPlaneRotationControl.ino`), the controller can also be operated through a web interface.
 
-Wi-Fi Control
+#### Connecting to the web interface
 
-If you uploaded the Wi-Fi-enabled sketch (InPlaneRotationControl.ino), the controller can also be operated through a web interface.
-
-Connecting to the web interface
-
-Open the Wi-Fi settings on your computer, phone, or tablet.
-
-Connect to the controller's Wi-Fi network using the following credentials:
-
-Network name: InPlaneRotationController
-
-Password: microscopy123
-
-Open a web browser and navigate to http://192.168.4.1.
+1. Open the Wi-Fi settings on your computer, phone, or tablet.
+2. Connect to the controller's Wi-Fi network using the following credentials:
+   - **Network name:** `InPlaneRotationController`
+   - **Password:** `microscopy123`
+3. Open a web browser and navigate to [http://192.168.4.1](http://192.168.4.1).
 
 The controller hosts its own Wi-Fi network, so an internet connection is not required.
 
-Operating the web interface
+#### Operating the web interface
 
-Toggle the Web control switch to ON to enable the web interface controls.
+Toggle the **Web control** switch to ON to enable the web interface controls.
+>[!NOTE]
+>The controller defaults to manual control each time it is powered on.
 
-Direction: Select CW or CCW to initiate rotation in the corresponding direction. The selected button will be highlighted in green. Selecting the opposite direction automatically deselects the previously selected button and reverses rotation.
-
-Speed: Adjust the slider to select a speed setting between 15% and 100%.
-
-Stop: Click the currently selected direction button again to stop rotation.
-
-Return to manual control: Toggle the Web control switch to OFF.
+- **Direction:** Select **CW** or **CCW** to initiate rotation in the corresponding direction. The selected button will be highlighted in green. Selecting the opposite direction automatically deselects the previously selected button and reverses rotation.
+- **Speed:** Adjust the slider to select a speed setting between 15% and 100%.
+- **Stop:** Click the currently selected direction button again to stop rotation.
+- **Return to manual control:** Toggle the **Web control** switch to OFF.
 
 The status displayed below the controls indicates the current commanded direction and applied PWM duty cycle.
 
-[!NOTE]
-When web control is enabled, the physical potentiometer and individual pushbutton controls are disabled. However, pressing both physical pushbuttons simultaneously stops rotation and clears the direction selected in the web interface. Switching between manual and web control also stops rotation.
+> [!NOTE]
+> When web control is enabled, the physical potentiometer and individual pushbutton controls are disabled. However, pressing both physical pushbuttons simultaneously stops rotation and clears the direction selected in the web interface. Switching between manual and web control also stops rotation.
 
-[!WARNING]
-Closing the webpage or losing the Wi-Fi connection does not automatically stop rotation. Always stop rotation before closing the webpage or disconnecting from the controller's Wi-Fi network.
+> [!WARNING]
+> Closing the webpage or losing the Wi-Fi connection does not automatically stop rotation. Always stop rotation before closing the webpage or disconnecting from the controller's Wi-Fi network.
