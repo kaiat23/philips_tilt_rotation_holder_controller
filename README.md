@@ -56,7 +56,8 @@ The [project wiki](https://github.com/kaiat23/philips_tilt_rotation_holder_contr
 
 1. [Adapting the Holder for Controller](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Adapting-the-Holder-for-Controller): Connect wires to the holder’s motor terminals so the motor can be driven by the external controller. 
 2. [Circuit Instructions](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Circuit-Instructions): Set up the ESP8266, solder the circuit, and wire the binding posts, potentiometer, and pushbuttons. <img alt="circuit_diagram" src="https://github.com/user-attachments/assets/0cb3d755-3559-4a71-ab2c-66a7db6fddc8" />
-3. [Project Box Assembly](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Project-Box-Assembly): Print the project box, tap screw holes, mount the components, and screw the box together. <img alt="Exploded view of Assembly" src="https://github.com/user-attachments/assets/d79812bd-f72d-4477-a616-241b2b7760ac" />
+3. [Project Box Assembly](https://github.com/kaiat23/philips_tilt_rotation_holder_controller/wiki/Project-Box-Assembly): Print the project box, tap screw holes, mount the components, and screw the box together. <img alt="exploded_view" src="https://github.com/user-attachments/assets/01ef41fc-1e89-41cd-9445-016005081d32" />
+
 
 ## Using the Controller
 
