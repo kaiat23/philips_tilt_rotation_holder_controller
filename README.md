@@ -52,6 +52,8 @@ The [project wiki](https://github.com/kaiat23/philips_tilt_rotation_holder_contr
 ## Using the Controller
 
 The external controller controls the direction and speed of in-plane specimen rotation. The α-tilt of the holder can still be controlled through the microscope's goniometer as usual.
+> [!WARNING]
+> The holder offers a full 360° range of rotation but cannot rotate continuously. Upon reaching the 0° or 360° limit, the holder can only be rotated in the opposite direction. Avoid driving the motor against these limits, as prolonged stalling may damage the motor. If rotation stops unexpectedly, stop driving the motor and check the rotation gauge before continuing.
 
 ### Connecting the Controller
 
@@ -60,7 +62,8 @@ The external controller controls the direction and speed of in-plane specimen ro
 
 ### Manual Control
 
-- **Direction:** Press and hold the corresponding pushbutton to rotate the specimen clockwise (CW) or counterclockwise (CCW).
+- **Direction:** Press and hold either pushbutton to rotate the specimen. One pushbutton rotates the specimen clockwise (CW), while the other rotates it counterclockwise (CCW).<img width="3656" height="3656" alt="Artboard 1" src="https://github.com/user-attachments/assets/86551e40-7833-4463-affd-dd8cc060fcf6" />
+
 - **Speed:** Turn the potentiometer knob to adjust the speed setting between 15% and 100%.
 - **Stop:** Release the pushbutton to stop rotation. Pressing both pushbuttons simultaneously also stops rotation.
 
@@ -78,9 +81,11 @@ If you uploaded the Wi-Fi-enabled sketch (`InPlaneRotationControl.ino`), the con
    - **Password:** `microscopy123`
 3. Open a web browser and navigate to [http://192.168.4.1](http://192.168.4.1).
 
-The controller hosts its own Wi-Fi network, so an internet connection is not required.
+> [!TIP]
+> The ESP8266 has a reported Wi-Fi range of up to 100 m under unobstructed conditions. However, the effective range may, especially indoors, due to obstructions and interference.
 
 #### Operating the web interface
+<img alt="web interface" src="https://github.com/user-attachments/assets/21bea394-d255-4ebd-9463-b318431fc364" />
 
 Toggle the **Web control** switch to ON to enable the web interface controls.
 >[!NOTE]
@@ -94,7 +99,6 @@ Toggle the **Web control** switch to ON to enable the web interface controls.
 The status displayed below the controls indicates the current commanded direction and applied PWM duty cycle.
 
 > [!NOTE]
-> When web control is enabled, the physical potentiometer and individual pushbutton controls are disabled. However, pressing both physical pushbuttons simultaneously stops rotation and clears the direction selected in the web interface. Switching between manual and web control also stops rotation.
-
-> [!WARNING]
-> Closing the webpage or losing the Wi-Fi connection does not automatically stop rotation. Always stop rotation before closing the webpage or disconnecting from the controller's Wi-Fi network.
+> When web control is enabled, the physical potentiometer and individual pushbuttons are disabled to prevent conflicting inputs. However, pressing both physical pushbuttons simultaneously will stop rotation and deselect the active direction in the web interface. Rotation also stops when switching between manual and web control.
+>
+> Closing the webpage or losing the Wi-Fi connection will not stop ongoing rotation. In either case, rotation can still be stopped by pressing both physical pushbuttons simultaneously or disconnecting the controller from its USB power source.
