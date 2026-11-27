@@ -62,7 +62,7 @@ The external controller controls the direction and speed of in-plane specimen ro
 
 ### Manual Control
 
-- **Direction:** Press and hold either pushbutton to rotate the specimen. One pushbutton rotates the specimen clockwise (CW), while the other rotates it counterclockwise (CCW).<img width="3656" height="3656" alt="Artboard 1" src="https://github.com/user-attachments/assets/86551e40-7833-4463-affd-dd8cc060fcf6" />
+- **Direction:** Press and hold either pushbutton to rotate the specimen. One pushbutton rotates the specimen clockwise (CW), while the other rotates it counterclockwise (CCW).
 
 - **Speed:** Turn the potentiometer knob to adjust the speed setting between 15% and 100%.
 - **Stop:** Release the pushbutton to stop rotation. Pressing both pushbuttons simultaneously also stops rotation.
